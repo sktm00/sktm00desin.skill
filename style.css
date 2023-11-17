@@ -1,15 +1,10 @@
 
 .横並びA{
-/* 	横並び */
 	display:flex;
-	
-/* 	各列の間に隙間をあける */
 	justify-content: space-between;
 	
 	& .列{
 		background-color: orange;
-		
-/* 	 オレンジ色の幅120px	 */
 		width:120px;
 		
 	}
@@ -17,8 +12,6 @@
 
 .横並びB{
 	display:flex;
-	
-	/* 各列の間に隙間を空ける */
 	justify-content: space-between;
 	
 	& .広い列 {
@@ -46,11 +39,7 @@
 
 .横並びD {
 	display: flex;
-	
-	/* 列全体を中央に寄せつつ、 */
 	justify-content: center;
-	
-	/* 列同士の間隔を空ける */
 	gap:20px;
 	
 	& .列 {
